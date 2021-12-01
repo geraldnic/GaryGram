@@ -28,7 +28,7 @@ class Tags extends Component {
       }
   
       handleSubmit(event) {
-        this.handleData(this.state.value);
+        this.handleData(this.state.value.toLowerCase());
         event.preventDefault();
       }
 
